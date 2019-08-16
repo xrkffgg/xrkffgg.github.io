@@ -14,5 +14,5 @@
 
 项目名称|地址|说明|
 ---|---|---|
-Kvue|[地址](https://xrkffgg.github.io/Kvue/)|vue练习项目
-Knotes|[地址](https://xrkffgg.github.io/Knotes/)|文章记录
+Kvue|[😊 地址](https://xrkffgg.github.io/Kvue/)|vue练习项目
+Knotes|[😊 地址](https://xrkffgg.github.io/Knotes/)|文章记录
