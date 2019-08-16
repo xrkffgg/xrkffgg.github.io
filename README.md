@@ -10,8 +10,9 @@
 [![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=flat-square)](https://996.icu/#/zh_CN)
 [![HitCount](http://hits.dwyl.io/xrkffgg/xrkffgg.github.io.svg)](http://hits.dwyl.io/xrkffgg/xrkffgg.github.io)
 
-### Kvue
+<br/>
 
-> 个人 Vue 练习项目
-> 
-> [地址](https://xrkffgg.github.io/Kvue/)
+项目名称|地址|说明|
+---|---|---|
+Kvue|[地址](https://xrkffgg.github.io/Kvue/)|vue练习项目
+Knotes|[地址](https://xrkffgg.github.io/Knotes/)|文章记录
