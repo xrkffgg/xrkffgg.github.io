@@ -4,6 +4,7 @@
 [![Kme](https://img.shields.io/badge/%E2%9D%A4-Kme-orange?style=flat-square)](https://xrkffgg.github.io/)
 [![Kplugins](https://img.shields.io/badge/%E2%9D%A4-Kplugins-blueviolet?style=flat-square)](https://github.com/xrkffgg/Kplugins)
 [![Knotes](https://img.shields.io/badge/%E2%9D%A4-Knotes-yellow?style=flat-square)](https://github.com/xrkffgg/Knotes)
+[![Khome](https://img.shields.io/badge/%E2%9D%A4-Khome-red?style=flat-square)](https://github.com/xrkffgg/Khome)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/xrkffgg/xrkffgg.github.io.svg?color=red&style=flat-square)](https://github.com/xrkffgg/xrkffgg.github.io/commits/master)
 [![GitHub stars](https://img.shields.io/github/stars/xrkffgg/xrkffgg.github.io.svg?style=flat-square)](https://github.com/xrkffgg/xrkffgg.github.io/stargazers)
@@ -11,6 +12,8 @@
 [![HitCount](http://hits.dwyl.io/xrkffgg/xrkffgg.github.io.svg)](http://hits.dwyl.io/xrkffgg/xrkffgg.github.io)
 
 <br/>
+
+- 主页代码在项目： https://github.com/xrkffgg/Khome 中
 
 项目名称|地址|说明|
 ---|---|---|
