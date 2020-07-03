@@ -1,0 +1,110 @@
+body {
+  font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
+  font-size: calc(10px + 0.33vw);
+  -webkit-font-smoothing: antialiased;
+  padding: 5vh 10vw;
+  color: #fff;
+  background-color: #121212;
+}
+
+.title {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.title h1 {
+  font-size: 4em;
+  font-weight: 800;
+  letter-spacing: 6px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.title h2 {
+  margin-bottom: 0;
+  margin-left: 2vw;
+  font-weight: normal;
+  color: #999;
+}
+
+.box {
+  display: flex;
+  align-items: baseline;
+}
+
+.name {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-top: 4vh;
+}
+
+.box img {
+  width: 18px;
+  height: 18px;
+  margin-left: 1vw;
+}
+
+.content {
+  margin-top: 6vh;
+  font-size: 1.5em;
+  line-height: 1.5;
+  max-width: 34em;
+}
+
+.content a {
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s cubic-bezier(0.4, 0, 1, 1) 0s;
+  ;
+}
+
+.blue {
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #1890ff,
+    0 0 20px #1890ff,
+    0 0 40px #1890ff,
+    0 0 60px #1890ff;
+}
+
+.blue:hover {
+  color: #1890ff;
+  text-shadow: 
+    0 0 5px #1890ff,
+    0 0 10px #1890ff,
+    0 0 20px #1890ff,
+    0 0 40px #1890ff,
+    0 0 60px #1890ff;
+}
+
+.green {
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #61dafb,
+    0 0 20px #61dafb,
+    0 0 40px #61dafb,
+    0 0 60px #61dafb;
+}
+
+.green:hover {
+  color: #61dafb;
+  text-shadow: 
+    0 0 5px #61dafb,
+    0 0 10px #61dafb,
+    0 0 20px #61dafb,
+    0 0 40px #61dafb,
+    0 0 60px #61dafb;
+}
+
+hr {
+  width: 34em;
+  opacity: .3;
+  margin: 20px 0;
+}
+
+.footer {
+  font-size: 1.4em;
+  font-weight: normal;
+  color: #999;
+  margin-top: 2vh;
+}
