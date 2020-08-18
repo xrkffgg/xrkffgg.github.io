@@ -7,6 +7,26 @@ body {
   background-color: #121212;
 }
 
+.light body {
+  color: #000000d9;
+  background-color: #fff;
+}
+
+.icons {
+  position: fixed;
+  left: 1vw;
+  top: 2vh;
+  cursor: pointer;
+}
+
+.light .sun {
+  display: none;
+}
+
+.dark .moon {
+  display: none;
+}
+
 .title {
   display: inline-flex;
   align-items: baseline;
@@ -54,11 +74,36 @@ body {
 .content a {
   text-decoration: none;
   color: #fff;
-  transition: all .3s cubic-bezier(0.4, 0, 1, 1) 0s;
-  ;
+  position: relative;
 }
 
-.blue {
+/* a link */
+.dark .content a {
+  transition: all .3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.light .content a {
+  color: #000000d9;
+}
+
+/* light link */
+.light .link:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, .8, .13, 1);
+}
+
+.light .link:hover:after {
+  top: 0;
+}
+
+/* c1 */
+.dark .c1 {
   text-shadow:
     0 0 5px #fff,
     0 0 10px #1890ff,
@@ -67,7 +112,7 @@ body {
     0 0 60px #1890ff;
 }
 
-.blue:hover {
+.dark .c1:hover {
   color: #1890ff;
   text-shadow: 
     0 0 5px #1890ff,
@@ -77,7 +122,12 @@ body {
     0 0 60px #1890ff;
 }
 
-.green {
+.light .c1:after {
+  background-color: #1890ff80;
+}
+
+/* c2 */
+.dark .c2 {
   text-shadow:
     0 0 5px #fff,
     0 0 10px #61dafb,
@@ -86,7 +136,7 @@ body {
     0 0 60px #61dafb;
 }
 
-.green:hover {
+.dark .c2:hover {
   color: #61dafb;
   text-shadow: 
     0 0 5px #61dafb,
@@ -96,6 +146,107 @@ body {
     0 0 60px #61dafb;
 }
 
+.light .c2:after {
+  background-color: #61dafb80;
+}
+
+/* c3 */
+.dark .c3 {
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #5bc49f,
+    0 0 20px #5bc49f,
+    0 0 40px #5bc49f,
+    0 0 60px #5bc49f;
+}
+
+.dark .c3:hover {
+  color: #5bc49f;
+  text-shadow: 
+    0 0 5px #5bc49f,
+    0 0 10px #5bc49f,
+    0 0 20px #5bc49f,
+    0 0 40px #5bc49f,
+    0 0 60px #5bc49f;
+}
+
+.light .c3:after {
+  background-color: #5bc49f80;
+}
+
+/* c4 */
+.dark .c4 {
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #feb64d,
+    0 0 20px #feb64d,
+    0 0 40px #feb64d,
+    0 0 60px #feb64d;
+}
+
+.dark .c4:hover {
+  color: #feb64d;
+  text-shadow: 
+    0 0 5px #feb64d,
+    0 0 10px #feb64d,
+    0 0 20px #feb64d,
+    0 0 40px #feb64d,
+    0 0 60px #feb64d;
+}
+
+.light .c4:after {
+  background-color: #feb64d80;
+}
+
+/* c5 */
+.dark .c5 {
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #9287e7,
+    0 0 20px #9287e7,
+    0 0 40px #9287e7,
+    0 0 60px #9287e7;
+}
+
+.dark .c5:hover {
+  color: #9287e7;
+  text-shadow: 
+    0 0 5px #9287e7,
+    0 0 10px #9287e7,
+    0 0 20px #9287e7,
+    0 0 40px #9287e7,
+    0 0 60px #9287e7;
+}
+
+.light .c5:after {
+  background-color: #9287e780;
+}
+
+/* c6 */
+.dark .c6 {
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #ff7875,
+    0 0 20px #ff7875,
+    0 0 40px #ff7875,
+    0 0 60px #ff7875;
+}
+
+.dark .c6:hover {
+  color: #ff7875;
+  text-shadow: 
+    0 0 5px #ff7875,
+    0 0 10px #ff7875,
+    0 0 20px #ff7875,
+    0 0 40px #ff7875,
+    0 0 60px #ff7875;
+}
+
+.light .c6:after {
+  background-color: #ff787580;
+}
+
+/* footer */
 hr {
   width: 34em;
   opacity: .3;
