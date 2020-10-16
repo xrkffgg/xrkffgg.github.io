@@ -243,7 +243,55 @@ body {
 }
 
 .light .c6:after {
-  background-color: #ff787580;
+  background-color: #ff78755c;
+}
+
+/* c7 */
+.dark .c7 {
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #ad4e00,
+    0 0 20px #ad4e00,
+    0 0 40px #ad4e00,
+    0 0 60px #ad4e00;
+}
+
+.dark .c7:hover {
+  color: #ad4e00;
+  text-shadow: 
+    0 0 5px #ad4e00,
+    0 0 10px #ad4e00,
+    0 0 20px #ad4e00,
+    0 0 40px #ad4e00,
+    0 0 60px #ad4e00;
+}
+
+.light .c7:after {
+  background-color: #ad4e004f;
+}
+
+/* c8 */
+.dark .c8 {
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #9e1068,
+    0 0 20px #9e1068,
+    0 0 40px #9e1068,
+    0 0 60px #9e1068;
+}
+
+.dark .c8:hover {
+  color: #9e1068;
+  text-shadow: 
+    0 0 5px #9e1068,
+    0 0 10px #9e1068,
+    0 0 20px #9e1068,
+    0 0 40px #9e1068,
+    0 0 60px #9e1068;
+}
+
+.light .c8:after {
+  background-color: #9e106847;
 }
 
 /* footer */
