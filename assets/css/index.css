@@ -8,6 +8,10 @@ body {
   background-color: #fff;
 }
 
+.ready-image {
+  background-image: url('../image/flashlight.png');
+}
+
 .dark body {
   background-color: #000;
   background-image: url('../image/flashlight.png');
