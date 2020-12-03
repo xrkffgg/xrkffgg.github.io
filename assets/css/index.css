@@ -8,7 +8,8 @@ body {
   background-color: #fff;
 }
 
-.ready-image {
+.ready-image::after {
+  content: '';
   background-image: url('../image/flashlight.png');
 }
 
@@ -24,6 +25,9 @@ body {
   padding: 2vw;
   left: 0;
   top: 0;
+}
+
+.icons div {
   cursor: pointer;
 }
 
