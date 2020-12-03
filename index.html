@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="dark">
+<html class="light">
 
 <head>
   <meta charset="utf-8">
@@ -30,7 +30,7 @@
     </div>
   </div>
   <div class="title">
-    <h1>😃 Hi.</h1>
+    <h1>Hi.</h1>
     <h2>Nice to meet you.</h2>
   </div>
   <div class="box name">
@@ -38,7 +38,7 @@
   </div>
   <div class="content">
     <p>
-      I'm graduated from the Communications Engineering of NUST, and now work in Beijing as a Front-end developer. In addition to complete my daily work, I also active in the open source community.
+      I'm graduated from the Communications Engineering of NUST, and now work in Beijing as a Front-end developer. In addition to complete my daily work, I also active in the open-source community.
     </p>
     <p>
       In most cases, I maintain in
@@ -55,27 +55,48 @@
       I think good design comes from details, which requires your patience. All life is suffering, stay strong, stay brave, and stay love.
     </p>
     <p>Outside of programming, for fun, I enjoy video games, music, film and delicious food.</p>
-    <p>Everyone, have a nice day!</p>
+    <p>My friend, have a good day!</p>
   </div>
-  <hr/>
+  <div class="hr"></div>
   <div class="box">
     <div class="footer">Welcome follow</div>
-    <a href="https://github.com/xrkffgg" target="_blank"><img src="./assets/image/github.png"></a>
-    <a href="https://twitter.com/xrkffgg" target="_blank"><img src="./assets/image/twitter.png"></a>
+    <a href="https://github.com/xrkffgg" target="_blank">
+      <svg t="1606976583524" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1142" width="18" height="18"><path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512" fill="#00000066" p-id="1143"></path></svg>
+    </a>
+    <a href="https://twitter.com/xrkffgg" target="_blank">
+      <svg t="1606976971062" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2049" width="18" height="18"><path d="M938.666667 275.2a341.333333 341.333333 0 0 1-78.933334 75.946667v23.466666A520.533333 520.533333 0 0 1 331.946667 896a522.24 522.24 0 0 1-232.533334-53.76 10.666667 10.666667 0 0 1-6.4-9.813333v-4.693334a11.093333 11.093333 0 0 1 11.093334-11.093333 378.026667 378.026667 0 0 0 218.453333-78.506667 186.453333 186.453333 0 0 1-165.973333-109.226666 11.093333 11.093333 0 0 1 11.093333-15.36 170.666667 170.666667 0 0 0 64.853333-5.973334A186.026667 186.026667 0 0 1 85.333333 445.013333a11.093333 11.093333 0 0 1 15.36-11.093333 170.666667 170.666667 0 0 0 67.413334 14.506667 182.613333 182.613333 0 0 1-72.96-210.773334 23.04 23.04 0 0 1 38.826666-7.68 527.36 527.36 0 0 0 358.826667 165.546667 170.666667 170.666667 0 0 1-5.12-42.666667 186.026667 186.026667 0 0 1 320.426667-125.44 370.773333 370.773333 0 0 0 101.973333-35.413333 7.253333 7.253333 0 0 1 7.68 0 7.253333 7.253333 0 0 1 0 7.68 186.453333 186.453333 0 0 1-75.093333 85.333333 366.08 366.08 0 0 0 85.333333-20.48 6.826667 6.826667 0 0 1 7.68 0 7.253333 7.253333 0 0 1 2.986667 10.666667z" fill="#00000066" p-id="2050"></path></svg>
+    </a>
+    <div class="ready-image"></div>
   </div>
 
   <script type="text/javascript">
     const html = document.documentElement;
     const sun = document.getElementById('icon-sun');
     const moon = document.getElementById('icon-moon');
+    const body = document.body;
+
+    function updateFlashlight(e) {
+      var style = document.body.style;
+      style.backgroundPositionX = e.pageX - 250 + "px";
+      style.backgroundPositionY = e.pageY - 250 + "px";
+    }
 
     sun.addEventListener('click', e => {
       html.classList.remove('dark');
       html.classList.add('light');
+
+      ["mousemove", "touchstart", "touchmove", "touchend"].forEach(function(s) {
+        document.documentElement.removeEventListener(s, updateFlashlight, false);
+      });
     });
     moon.addEventListener('click', e => {
       html.classList.add('dark');
       html.classList.remove('light');
+
+      updateFlashlight(e);
+      ["mousemove", "touchstart", "touchmove", "touchend"].forEach(function(s) {
+        document.documentElement.addEventListener(s, updateFlashlight, false);
+      });
     });
   </script>
 </body>
