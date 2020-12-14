@@ -97,6 +97,11 @@ body {
   position: relative;
 }
 
+.content .bold {
+  font-weight: bold;
+  text-align: center;
+}
+
 .dark .content a {
   color: #000000d9;
 }
@@ -173,7 +178,7 @@ body {
 
 /* c6 */
 .dark .c6:hover {
-  color: #d3f261;
+  color: #ffa39e;
 }
 
 .light .c6:after {
